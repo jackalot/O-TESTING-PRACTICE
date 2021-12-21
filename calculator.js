@@ -12,4 +12,4 @@ calculator = {
       return num1 / num2;
   }
 }
-modules.export = calculator;
+module.export = calculator;
