@@ -12,5 +12,5 @@ test('multiply 3 * 5 and returns 15', () => {
     expect(calculator.multiply(3, 5)).toBe(15);
 })
 test('divide 15 / 5 and returns 3', () => {
-    expect(calculator.multiply(15, 5)).toBe(3);
+    expect(calculator.divide(15, 5)).toBe(3);
 })
