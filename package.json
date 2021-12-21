@@ -1,0 +1,23 @@
+{
+  "name": "O-TESTING-PRACTICE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackalot/O-TESTING-PRACTICE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackalot/O-TESTING-PRACTICE/issues"
+  },
+  "homepage": "https://github.com/jackalot/O-TESTING-PRACTICE#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
