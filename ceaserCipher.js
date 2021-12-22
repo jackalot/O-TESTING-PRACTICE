@@ -29,7 +29,8 @@ function nextLetter(currentChar, casing)
          const newChar = "a";
          if(casing === true)
          {
-            const capitalNewChar = newChar.toUpperCase();
+             // newChar isnt a string so make it a string
+            const capitalNewChar = newChar.toString().toUpperCase();
             return capitalNewChar;
          }
          else
@@ -42,7 +43,8 @@ function nextLetter(currentChar, casing)
          const newChar = alphabet.slice(index + 1, index + 2);
          if(casing === true)
          {
-            const capitalNewChar = newChar.toUpperCase();
+             // newChar isnt a string so make it a string
+            const capitalNewChar = newChar.toString().toUpperCase();
             return capitalNewChar;
          }
          else
