@@ -1,1 +1,25 @@
-current focus: ceaserCipher
+current focus: ceaserCipher:
+* ceaser cipher will start with an empty string called emptyString
+- then it will continue by grabbing the string put into it and make a for loop that loops through
+the string.
+- on each character there will be a function call to the new function checkCasing (char) {
+    * in the beginning of checkCasing, it will get the character, and check if its not a letter
+    - else it will check if its a capital using if(char === char.toUpperCase())
+    - if it does, it returns true;
+    - else it returns false;
+}
+- after check casing it will then call the function nextLetter(currentChar, casing) {
+    * nextLetter will start by creating an array of the alphabet lowercased (we will capitalize it later
+    if needed)
+    - we make a variable called "index" that equals to finding the indexOf our currentChar in the alphabet
+    array.
+    - if index is -1
+        - return currentChar;
+    - else if currentChar is the letter Z
+        - make a newChar variable that is the letter A
+        - after that, if casing === true, we return newChar.toUpperCase();
+        - else we return newChar.toLowerCase();
+    - else make a newChar variable that is equal to alphabet.slice(index + 1, index + 2);
+        - after that, if casing === true, we return newChar.toUpperCase();
+        - else we return newChar.toLowerCase();
+}
