@@ -26,3 +26,61 @@ the string.
 - whatever is returned from next nextLetter gets added to emptyString
 - after the loop return emptyString
 psuedo code :
+function checkCasing(char) {
+    if(!isNan(ch * 1)) {
+        return false;
+    }
+    else
+    {
+        if(char === char.toUpperCase())
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+function nextLetter(currentChar, casing)
+{
+    const alphabet = ["a", "b", "c", "d", 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
+     'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+     const index = alphabet.indexOf(currentChar.toLowerCase());
+     if(index === -1)
+     {
+         return currentChar; // this means its not a letter
+     }
+     else if(currentChar === z)
+     {
+         const newChar = "a";
+         if(casing === true)
+         {
+             return newChar.toUpperCase();
+         }
+         else
+         {
+             return newChar;
+         }
+     }
+     else
+     {
+         const newChar = alphabet.slice(index + 1, index + 2);
+        if(casing === true)
+         {
+             return newChar.toUpperCase();
+         }
+         else
+         {
+             return newChar;
+         }
+     }
+}
+function ceaserCipher(inputString) {
+    let emptyString = "";
+    for(let i = 0; i < inputString.length; i++)
+    {
+        const casing = checkCasing(inputString[i]);
+        const newLetter = nextLetter(currentChar, casing);
+    }
+}
