@@ -9,6 +9,6 @@ test('The string "z" returns "a"', () => {
 test('The string "Taco" returns "Ubdp"', () => {
     expect(ceaserCipher("Taco")).toBe("Ubdp");
 })
-test('The string "can`t" returns "dbo`t"', () => {
-    expect(ceaserCipher("can`t")).toBe("dbo`t");
+test('The string "can`t" returns "dbo`u"', () => {
+    expect(ceaserCipher("can`t")).toBe("dbo`u");
 })
