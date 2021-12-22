@@ -23,3 +23,6 @@ the string.
         - after that, if casing === true, we return newChar.toUpperCase();
         - else we return newChar.toLowerCase();
 }
+- whatever is returned from next nextLetter gets added to emptyString
+- after the loop return emptyString
+psuedo code :
