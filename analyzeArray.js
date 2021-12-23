@@ -4,7 +4,8 @@ function getAverage(inputArray) {
     {
         tempSum += inputArray[i];
     }
-    return tempSum;
+    const average = tempSum / inputArray.length;
+    return average;
 }
 function getMinimum(inputArray) {
     let tempMin = 100;
