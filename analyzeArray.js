@@ -20,7 +20,7 @@ function getMinimum(inputArray) {
 }
 function getMaximum(inputArray) {
     let tempMax = 0;
-    for(let i = 0; i > inputArray.length; i++)
+    for(let i = 0; i < inputArray.length; i++)
     {
         if(tempMax <= inputArray[i])
         {
