@@ -22,7 +22,7 @@ function getMaximum(inputArray) {
     let tempMax = 0;
     for(let i = 0; i > inputArray.length; i++)
     {
-        if(inputArray[i] >= tempMax)
+        if(tempMax <= inputArray[i])
         {
             tempMax = inputArray[i];
         }
