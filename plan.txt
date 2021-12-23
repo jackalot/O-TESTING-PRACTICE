@@ -1,1 +1,33 @@
 current focus: analyzeArray:
+
+* when analyzeArray is called it will first store a reference to a function called getAverage(arr)
+{
+    * when getAverage is called, it will create a new variable called tempSum which equals 0
+    - then a for loop that goes through the array happens.
+       for{
+           - on each iteration, this element will add to the tempSum
+        }
+    - after the for loop, we make a tempAverage variable where we divide the
+    tempSum to the array: tempSum / arr.length 
+    - it will then return tempAverage
+}
+- after that, it will store a reference to a function called getMinimum(arr) {
+    * when getMinimum is called, it will create a new variable called tempMin which equals 100
+    - then a for loop that goes through the array happens.
+        for{
+            - on each iteration, if this item is smaller than tempMin, than tempMin will equal
+            this iteration
+            }
+    - after the loop, return tempMin
+}
+- after getMinimum is done, do the opposite function called getMaximum(arr) {
+    * when getMaximum is called, it will create a new variable called tempMax which equals 0
+    - then a for loop that goes through the array happens.
+        for{
+            - on each iteration, if this item is bigger than tempMax, than tempMax will equal
+            this iteration
+            }
+    - after the loop, return tempMax
+}
+- when those functions are done, make a reference to the length of the array called arrLength
+- finally, return it all as an object
